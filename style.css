@@ -1,0 +1,114 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: white;
+}
+
+.container {
+ width: 1440px;
+ height: 1440px;
+ border: 1px solid black;
+}
+
+.innercontainer {
+ width: 1200px;
+ height: 600px;
+ background-color: hsl(217, 54%, 11%);
+ margin: 50px auto;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+}
+
+.card {
+ height: 430px;
+ width: 250px;
+ background-color: hsl(216, 50%, 16%);
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+img {
+ border-radius: 5px;
+ margin-top: 15px;
+}
+
+.text {
+ position: absolute;
+ top: 380px;
+ left: 620px;
+ color: white;
+ font-size: 18px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph {
+ position: absolute;
+ top: 410px;
+ width: 230px;
+ margin-left: 30px;
+ /* border: 1px solid yellow; */
+ margin-top: 10px;
+ font-size: 13px;
+ color: white;
+ font-family: fantasy;
+}
+
+.icon{
+ display: flex;
+ position: absolute;
+ top: 480px;
+ left: 618px;
+}
+
+.icon > p {
+ margin-left: 10px;
+ font-weight: 600;
+ color: rgb(13, 240, 229);
+}
+
+.cicon {
+ display: flex;
+ position: absolute;
+ top: 480px;
+ left: 750px;
+ /* border: 1px solid yellow; */
+ width: 100px;
+}
+
+.cicon > p {
+ margin-left: 5px;
+ color: whitesmoke;
+ font-weight: lighter;
+}
+
+footer {
+ /* border: 1px solid yellow; */
+ width: 300px;
+ display: flex;
+ position: absolute;
+ top: 500px;
+ left: 610px;
+}
+
+footer > p {
+ margin-top: 20px;
+ margin-left: 13px;
+ color: white;
+ font-family: monospace;
+}
+
+footer > img {
+ border: 1px solid white;
+ border-radius: 50px;
+}
+
+footer > p > span {
+ font-family: serif;
+ font-weight: 550;
+}
